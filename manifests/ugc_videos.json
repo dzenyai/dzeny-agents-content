@@ -1,0 +1,117 @@
+{
+  "project": "UGC Clone Skill",
+  "date": "2026-03-29T12:21:48Z",
+  "status": "stage2_complete",
+  "source_video": {
+    "filename": "file_786---3b3cffb2-ae2e-434b-9686-52ac4cc9899a.mp4",
+    "duration_sec": 9.77,
+    "format": "9:16 vertical",
+    "theme": "mental wellness, therapy, personal growth"
+  },
+  "character": {
+    "name": "Maya",
+    "age": 24,
+    "ethnicity": "South Asian",
+    "skin_tone": "olive",
+    "hair": "long black straight, center-parted",
+    "personality": "thoughtful, introspective, peaceful"
+  },
+  "pipeline_stages": {
+    "stage0_analysis": {
+      "status": "complete",
+      "timestamp": "2026-03-29T11:50:00Z",
+      "output": "analysis.json",
+      "scenes_detected": 3,
+      "duration": "~30s"
+    },
+    "stage1_keyframes": {
+      "status": "complete",
+      "timestamp": "2026-03-29T11:55:00Z",
+      "output": [
+        "scene1_raw.jpg (204 KB)",
+        "scene2_raw.jpg (207 KB)",
+        "scene3_raw.jpg (234 KB)"
+      ],
+      "duration": "~10s"
+    },
+    "stage2_nbp": {
+      "status": "complete",
+      "timestamp": "2026-03-29T12:21:48Z",
+      "outputs": [
+        {
+          "scene": 1,
+          "location": "stairs",
+          "emotion": "sadness, vulnerability",
+          "file": "scene1_maya_corrected.jpg",
+          "size_kb": 1536
+        },
+        {
+          "scene": 2,
+          "location": "kitchen",
+          "emotion": "contemplative, hopeful",
+          "file": "scene2_maya_corrected.jpg",
+          "size_kb": 1536
+        },
+        {
+          "scene": 3,
+          "location": "living room (sofa)",
+          "emotion": "happy, relieved, peaceful",
+          "file": "scene3_maya_corrected.jpg",
+          "size_kb": 1331
+        }
+      ],
+      "total_duration": "~3 minutes",
+      "techniques": [
+        "WaveSpeed NBP face replacement",
+        "Text overlay removal",
+        "Lighting enhancement",
+        "Quality normalization"
+      ]
+    },
+    "stage3_prompts": {
+      "status": "pending",
+      "next": "Gemini motion prompt generation"
+    },
+    "stage4_kling": {
+      "status": "pending",
+      "next": "WaveSpeed Kling I2V video generation"
+    },
+    "stage5_7_compose": {
+      "status": "pending",
+      "next": "Remotion composition + audio + subtitles"
+    }
+  },
+  "quality_notes": {
+    "face_replacement": "Seamless, natural skin tone matching",
+    "text_removal": "All overlays cleaned",
+    "emotion_preservation": "Facial expressions match scene emotions",
+    "consistency": "Character consistent across all scenes"
+  },
+  "next_steps": [
+    "Stage 3: Generate Kling motion prompts",
+    "Stage 4: Generate videos via Kling I2V",
+    "Stage 5-7: Compose with audio and Remotion subtitles",
+    "Push final output to CDN"
+  ],
+  "api_usage": {
+    "openrouter": {
+      "model": "google/gemini-2.5-flash",
+      "calls": 1,
+      "tokens_estimated": 500
+    },
+    "wavespeed": {
+      "service": "nano-banana-pro/edit",
+      "calls": 3,
+      "total_processing_time_min": 3
+    },
+    "ffmpeg": {
+      "keyframe_extractions": 3,
+      "success_rate": "100%"
+    }
+  },
+  "storage": {
+    "stage2_outputs_path": "/workspace/dzeny-agents-content/outputs/stage2/",
+    "total_size_mb": 4.3,
+    "files_count": 3
+  }
+}
