@@ -1,0 +1,63 @@
+{
+  "name": "Dzeny UGC Video v2",
+  "created": "2026-03-29T18:43:00Z",
+  "version": "2.0",
+  "duration": 21.25,
+  "resolution": "464×848",
+  "format": "9:16 vertical",
+  "filesize_mb": 15,
+  "codec": "H.264",
+  "platform": "TikTok/Instagram Reels",
+  "status": "ready_for_audio_subtitles",
+  "scenes": [
+    {
+      "num": 1,
+      "name": "Street Discovery",
+      "duration": 4,
+      "start": 0,
+      "end": 4
+    },
+    {
+      "num": 2,
+      "name": "App Discovery",
+      "duration": 3,
+      "start": 4,
+      "end": 7
+    },
+    {
+      "num": 3,
+      "name": "Mental Index",
+      "duration": 3,
+      "start": 7,
+      "end": 10
+    },
+    {
+      "num": 4,
+      "name": "AI Therapist Avatar Call",
+      "duration": 4,
+      "start": 10,
+      "end": 14
+    },
+    {
+      "num": 5,
+      "name": "Transition",
+      "duration": 3,
+      "start": 14,
+      "end": 17
+    },
+    {
+      "num": 6,
+      "name": "Premium CTA",
+      "duration": 4,
+      "start": 17,
+      "end": 21.25
+    }
+  ],
+  "next_steps": [
+    "Extract audio from original reference",
+    "Generate subtitles (scene-by-scene)",
+    "Overlay subtitles via Remotion",
+    "Export final video with audio + captions",
+    "Upload to CDN"
+  ]
+}
