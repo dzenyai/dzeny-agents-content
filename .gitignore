@@ -1,0 +1,19 @@
+# System
+.DS_Store
+.vscode/
+.idea/
+
+# Temp
+tmp/
+temp/
+*.tmp
+
+# Logs
+*.log
+
+# Keep only final videos and manifests
+# Exclude intermediate files
+*scene*.mp4
+*_raw.mp4
+*_norm.mp4
+*_test*.mp4
