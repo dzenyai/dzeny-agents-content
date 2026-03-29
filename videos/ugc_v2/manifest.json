@@ -1,63 +1,80 @@
 {
-  "name": "Dzeny UGC Video v2",
-  "created": "2026-03-29T18:43:00Z",
-  "version": "2.0",
-  "duration": 21.25,
-  "resolution": "464×848",
-  "format": "9:16 vertical",
-  "filesize_mb": 15,
-  "codec": "H.264",
-  "platform": "TikTok/Instagram Reels",
-  "status": "ready_for_audio_subtitles",
+  "name": "Dzeny UGC Video v2 - Final",
+  "created": "2026-03-29T18:50:00Z",
+  "version": "2.1",
+  "status": "complete_with_audio_subtitles",
+  "duration": 15.25,
+  "videos": [
+    {
+      "name": "Standard (464×848)",
+      "resolution": "464×848",
+      "format": "9:16 vertical",
+      "filesize_mb": 3.1,
+      "file": "dzeny_ugc_v2_final_with_subtitles.mp4",
+      "platform": "General"
+    },
+    {
+      "name": "Instagram Reels (1080×1920)",
+      "resolution": "1080×1920",
+      "format": "9:16 vertical",
+      "filesize_mb": 5.0,
+      "file": "dzeny_ugc_v2_reels_1080x1920.mp4",
+      "platform": "Instagram Reels"
+    },
+    {
+      "name": "TikTok (544×960)",
+      "resolution": "544×960",
+      "format": "9:16 vertical",
+      "filesize_mb": 1.8,
+      "file": "dzeny_ugc_v2_tiktok_544x960.mp4",
+      "platform": "TikTok"
+    }
+  ],
+  "features": [
+    "6 scenes with smooth transitions",
+    "AI therapist avatar (realistic, professional)",
+    "Subtitles: 'Dzeny AI Therapist' branding throughout",
+    "Original audio from reference video",
+    "Premium CTA button (no 'Free' messaging)",
+    "Mental Index feature showcase",
+    "App interface integration"
+  ],
   "scenes": [
     {
       "num": 1,
       "name": "Street Discovery",
       "duration": 4,
-      "start": 0,
-      "end": 4
+      "subtitle": "Dzeny AI Therapist - Discover a new way"
     },
     {
       "num": 2,
       "name": "App Discovery",
       "duration": 3,
-      "start": 4,
-      "end": 7
+      "subtitle": "Dzeny AI Therapist - Therapy on your phone"
     },
     {
       "num": 3,
       "name": "Mental Index",
       "duration": 3,
-      "start": 7,
-      "end": 10
+      "subtitle": "Dzeny AI Therapist - Track your wellness"
     },
     {
       "num": 4,
       "name": "AI Therapist Avatar Call",
       "duration": 4,
-      "start": 10,
-      "end": 14
+      "subtitle": "Dzeny AI Therapist - Connect instantly"
     },
     {
       "num": 5,
       "name": "Transition",
       "duration": 3,
-      "start": 14,
-      "end": 17
+      "subtitle": "Dzeny AI Therapist - Your journey starts"
     },
     {
       "num": 6,
       "name": "Premium CTA",
       "duration": 4,
-      "start": 17,
-      "end": 21.25
+      "subtitle": "Dzeny AI Therapist - Begin your session"
     }
-  ],
-  "next_steps": [
-    "Extract audio from original reference",
-    "Generate subtitles (scene-by-scene)",
-    "Overlay subtitles via Remotion",
-    "Export final video with audio + captions",
-    "Upload to CDN"
   ]
 }
